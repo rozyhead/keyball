@@ -39,7 +39,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define KEYBALL_SCROLLSNAP_TENSION_THRESHOLD 6
 #define KEYBALL_CPI_DEFAULT 600
 #define KEYBALL_SCROLL_DIV_DEFAULT 6
-#define TAPPING_TERM 180
+
+#define TAPPING_TERM 150
+#define PERMISSIVE_HOLD
+//#define RETRO_TAPPING
+
 #define DYNAMIC_KEYMAP_LAYER_COUNT 5
 
 #define LAYER_LED_ENABLE
